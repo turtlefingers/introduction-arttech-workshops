@@ -1,0 +1,59 @@
+html, body{
+  margin:0;
+  padding:0;
+  font-size:16px;
+  line-height:1.6em;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+body{
+  padding: 2rem;
+}
+
+video{
+  width:100%;
+}
+
+h1{
+  font-size:20px;
+  font-weight:700;
+  padding:0;
+  margin:0;
+  margin-bottom:25px;
+}
+
+h1:before{
+  content:"워크샵 시리즈";
+  display:inline-block;
+  font-size:15px;
+  background:black;
+  color:white;
+  margin-right:10px;
+  padding:5px 15px;;
+  border-radius:5px;
+  margin-bottom:10px;
+  margin-left:-2px;
+}
+
+@media screen (max-width:) {
+  
+}
+
+article{
+  margin-top:30px;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+.images{
+  font-size:0;
+}
+.images img{
+  font-size:0;
+  margin:0;
+  padding:0;
+}
